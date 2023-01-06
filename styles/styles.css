@@ -131,7 +131,7 @@ li {
     width: 350px;
 }
 
-.call-now-banner button {
+.secondary-button {
     color: #F15B22;
     background-color: white;
     padding: 20px 36px;
@@ -143,3 +143,17 @@ li {
 }
 
 /* Footer styles */
+footer{
+    background: #151414;
+    height: 250px;
+    color: white;
+    margin-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer-section{
+    padding: 50px 200px;
+    display: flex;
+    gap: 200px;
+    max-width: 1140px;
+}
