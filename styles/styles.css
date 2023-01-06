@@ -103,8 +103,41 @@ li {
     display: flex;
     justify-content: space-evenly;
     margin: 40px 0;
-    
+    padding-bottom: 40px;
+
 }
-.plans p{
+
+.plans p {
     color: #737272;
+}
+
+/* Call now banner styles  */
+.call-now-banner {
+    color: white;
+    background-image: url('../assets/images/watch.png'), 
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: multiply; 
+    height: 300px;
+    width: 1140px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.banner-contents {
+    padding: 70px 64px;
+    width: 350px;
+}
+
+.call-now-banner button {
+    color: #F15B22;
+    background-color: white;
+    padding: 20px 36px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 24px;
+    border-radius: 5px;
 }
