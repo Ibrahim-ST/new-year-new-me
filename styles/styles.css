@@ -115,19 +115,18 @@ li {
 .call-now-banner {
     color: white;
     background-image: url('../assets/images/watch.png'), 
-    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
-    background-blend-mode: multiply; 
-    height: 300px;
-    width: 1140px;
-    align-items: center;
-    justify-content: center;
+    linear-gradient(to right, #f15d22b0 10%, rgba(241, 91, 34, 0) );
+    background-blend-mode: color-burn; 
+    height: 220px;
+    width: 900px;
+    background-size: 100% ;
     margin: auto;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
 
 .banner-contents {
-    padding: 70px 64px;
+    padding: 30px 64px;
     width: 350px;
 }
 
@@ -145,15 +144,36 @@ li {
 /* Footer styles */
 footer{
     background: #151414;
-    height: 250px;
+    height: 330px;
     color: white;
     margin-top: 70px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .footer-section{
-    padding: 50px 200px;
+    padding: 50px 200px 0;
     display: flex;
     gap: 200px;
     max-width: 1140px;
 }
+.future{
+    width: 500px;
+}
+.future-description{
+padding: 15px 0;
+}
+.subscribe {
+    color: white;
+}
+.subscribe  input[type="email"]{
+    padding: 10px;
+    margin-top: 15px;
+    border:1px solid white;
+    border-radius: 8px ;
+    background-color: black;
+    font-size: 16px;
+}
+.subscribe ::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
