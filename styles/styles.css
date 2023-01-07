@@ -105,7 +105,10 @@ my plans styles
     justify-content: space-evenly;
     margin: 40px 0;
     padding-bottom: 40px;
+}
 
+.plans{
+    text-align: center;
 }
 
 .plans p {
@@ -144,7 +147,7 @@ Call now banner styles
 }
 
 /* 
-collaboration styles 
+Work together styles(Extra) 
 */
 .work-header {
     text-align: center;
@@ -240,10 +243,10 @@ footer {
     background-color: black;
     font-size: 16px;
     width: 300px;
+    color: white;
 }
 
 .subscribe ::placeholder {
     color: white;
     opacity: 1;
-    /* Firefox */
 }
