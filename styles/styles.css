@@ -192,6 +192,8 @@ collaboration styles
     background-color: #141C3A;
     border: 2px solid cyan;
     cursor: pointer;
+    font-family: cursive, 'Bakbak One';
+
 
 }
 .work-together button:hover{
