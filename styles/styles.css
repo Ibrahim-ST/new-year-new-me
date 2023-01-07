@@ -194,7 +194,6 @@ Work together styles(Extra)
     color: white;
     background-color: #141C3A;
     border: 2px solid cyan;
-    cursor: pointer;
     font-family: cursive, 'Bakbak One';
 
 
@@ -249,4 +248,7 @@ footer {
 .subscribe ::placeholder {
     color: white;
     opacity: 1;
+}
+button:hover{
+    cursor: pointer;
 }
